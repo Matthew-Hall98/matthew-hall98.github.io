@@ -37,11 +37,23 @@ jobs:
         env:
           CI: true
 
-      - name: Commit and push dist changes
+      - name: Prepare deployment
+        if: github.ref == 'refs/heads/main'
+        run: |
+          # Copy dist contents to root (except .git and node_modules)
+          for file in dist/*; do
+            if [ "$(basename "$file")" != ".git" ] && [ "$(basename "$file")" != "node_modules" ]; then
+              cp -r "$file" "$(basename "$file")"
+            fi
+          done
+
+      - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add dist/
-          git commit -m "ci: rebuild dist" || echo "No changes to commit"
-          git push
+          git add assets/ index.html coin-sound.mp3 robots.txt lovable-uploads/ placeholder.svg .nojekyll
+          if ! git diff --cached --quiet; then
+            git commit -m "ci: rebuild and deploy"
+            git push
+          fi
