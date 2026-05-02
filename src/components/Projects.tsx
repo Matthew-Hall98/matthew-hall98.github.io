@@ -47,9 +47,9 @@ const Projects = () => {
       challenges: "Balancing realistic physics with fun gameplay, creating varied yet fair procedural levels, and optimizing performance across different hardware configurations.",
       tags: ["Unity", "C#", "Physics-Based", "Game Design"],
       images: [
-        "/lovable-uploads/f6ee9a50-6924-4e8f-b9ae-9448dc4f1761.png", 
-        "/lovable-uploads/97463d4d-a3d1-4c01-8977-c619ab952dac.png",
-        "/lovable-uploads/48fb4a81-e23d-40f0-9f1b-5b823abb0230.png"
+        "/images/f6ee9a50-6924-4e8f-b9ae-9448dc4f1761.png", 
+        "/images/97463d4d-a3d1-4c01-8977-c619ab952dac.png",
+        "/images/48fb4a81-e23d-40f0-9f1b-5b823abb0230.png"
       ],
       links: {
         github: "#"
@@ -79,7 +79,7 @@ const Projects = () => {
       challenges: "Creating intuitive driving controls that are fun yet challenging, balancing the game economy, and optimizing performance for smooth gameplay across the city environment.",
       tags: ["Unity", "C#", "Arcade", "Vehicle Physics"],
       images: [
-        "/lovable-uploads/37d855af-b0a0-4061-9119-69ac5b4e8c8f.png"
+        "/images/37d855af-b0a0-4061-9119-69ac5b4e8c8f.png"
       ],
       links: {
         github: "#"
@@ -94,9 +94,9 @@ const Projects = () => {
       challenges: "Ensuring consistent and believable world generation while maintaining performance. Creating algorithms that produce varied yet logical layouts for roads and districts that feel organically designed.",
       tags: ["Unity", "C#", "Procedural Generation", "Algorithm Design"],
       images: [
-        "/lovable-uploads/4e743920-516b-4357-86b6-f1e6997a2bc8.png",
-        "/lovable-uploads/06ff7590-71d2-4ea6-850f-4139761ddf6c.png",
-        "/lovable-uploads/3f80fbbc-cdfa-4700-84de-eccd9908d511.png"
+        "/images/4e743920-516b-4357-86b6-f1e6997a2bc8.png",
+        "/images/06ff7590-71d2-4ea6-850f-4139761ddf6c.png",
+        "/images/3f80fbbc-cdfa-4700-84de-eccd9908d511.png"
       ],
       links: {
         github: "#"
@@ -111,7 +111,7 @@ const Projects = () => {
       challenges: "Designing parts that maintain the classic aesthetic while integrating modern technology. Creating reliable electronic systems that can withstand automotive environments with temperature extremes and vibration.",
       tags: ["Automotive", "Electronics", "3D Design", "PCB Design"],
       images: [
-        "/lovable-uploads/f339a822-79d3-41aa-806a-0d744942c901.png"
+        "/images/f339a822-79d3-41aa-806a-0d744942c901.png"
       ],
       links: {
         github: "#"

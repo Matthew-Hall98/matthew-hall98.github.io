@@ -75,7 +75,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex flex-col items-center justify-center pt-16 overflow-hidden relative">
       <div className="absolute inset-0 z-0">
         <img 
-          src="/lovable-uploads/4780adaa-d90e-4882-98f6-ea9d9cb1e70c.png" 
+          src="/images/c108577a-2093-496d-ac59-b028dc07c405.png" 
           alt="Pixel art landscape" 
           className="w-full h-full object-cover"
           style={{ imageRendering: 'pixelated' }}

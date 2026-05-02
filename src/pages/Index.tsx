@@ -20,10 +20,9 @@ const Index = () => {
   useEffect(() => {
     // List all images that need to be preloaded
     const imagesToPreload = [
-      "/lovable-uploads/4780adaa-d90e-4882-98f6-ea9d9cb1e70c.png", // Hero background
-      "/lovable-uploads/3e28171b-37ae-4517-abfa-ec7790656d96.png",
-      "/lovable-uploads/736359f8-2c84-4520-ba16-6e9cdf583900.png",
-      "/lovable-uploads/c108577a-2093-496d-ac59-b028dc07c405.png"
+      "/images/3e28171b-37ae-4517-abfa-ec7790656d96.png",
+      "/images/736359f8-2c84-4520-ba16-6e9cdf583900.png",
+      "/images/c108577a-2093-496d-ac59-b028dc07c405.png" // Hero background
     ];
 
     // Preload all images

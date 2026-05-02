@@ -16,7 +16,7 @@ const About = () => {
           {/* Portrait on the left */}
           <div className="w-48 h-48 md:w-56 md:h-56 flex-shrink-0 pixel-borders bg-retro-orange p-2">
             <img 
-              src="/lovable-uploads/736359f8-2c84-4520-ba16-6e9cdf583900.png" 
+              src="/images/736359f8-2c84-4520-ba16-6e9cdf583900.png" 
               alt="Pixel portrait" 
               className="w-full h-full object-cover"
               style={{ imageRendering: 'pixelated' }}
