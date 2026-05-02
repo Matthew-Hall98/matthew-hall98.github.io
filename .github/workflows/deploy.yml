@@ -52,7 +52,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/ index.html coin-sound.mp3 robots.txt lovable-uploads/ placeholder.svg .nojekyll
+          git add assets/ index.html coin-sound.mp3 robots.txt placeholder.svg .nojekyll
           if ! git diff --cached --quiet; then
             git commit -m "ci: rebuild and deploy"
             git push
