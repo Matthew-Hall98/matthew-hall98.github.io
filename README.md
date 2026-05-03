@@ -1,53 +1,17 @@
 # Matthew Hall Portfolio
 
-This repository is a Vite + React portfolio site.
+This repository contains the source code for my personal portfolio website, showcasing my skills, projects, work experience, and more. The site is built as a modern, responsive web application.
 
-## Running locally
+## 🌐 Live Site
 
-```sh
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
-npm install
-npm run dev
-```
+You can view the live version of my portfolio at: [https://matthew-hall98.github.io/](https://matthew-hall98.github.io/)
 
-Then open `http://localhost:8080`.
+## 🛠 Technologies Used
 
-## Build for production
+This project is built with the following technologies:
 
-```sh
-npm run build
-```
-
-## Notes
-
-- Images are stored in `public/images`
-- This repository is self-contained and does not depend on third-party site builder tools.
-
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Build the site and deploy the generated files to your hosting provider.
-
-```sh
-npm run build
-```
-
-For GitHub Pages, deploy the contents of the `dist` folder or use a workflow that publishes `index.html` and the `assets` folder.
-
-## I want to use a custom domain - is that possible?
-
-Yes, you can use a custom domain with any static hosting provider. Configure DNS and the hosting provider according to their instructions.
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Typed JavaScript for better development experience
+- **React** - Component-based UI library
+- **shadcn/ui** - Modern UI components built on Radix UI and Tailwind CSS
+- **Tailwind CSS** - Utility-first CSS framework for styling
